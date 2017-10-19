@@ -510,8 +510,10 @@ input[type='submit'] {
   text-decoration: none;
   outline: none;
   list-style: none;
-  font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
   -o-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -519,4 +521,39 @@ input[type='submit'] {
   content: "";
   display: table;
   clear: both; }
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%; }
+
+#header {
+  background-color: #0f0e16; }
+
+.nav {
+  padding: 15px 0; }
+
+#header nav ul {
+  text-align: center; }
+  #header nav ul li {
+    display: inline-block;
+    padding: 0 15px; }
+
+.reg-log {
+  padding-bottom: 15px;
+  text-align: center; }
+  .reg-log li {
+    display: inline-block; }
+  .reg-log li:nth-child(2) {
+    padding: 0; }
+
+#header a {
+  color: #e0e0e0;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase; }
+
+#header a:hover {
+  color: grey; }
 /*# sourceMappingURL=main.css.map */
