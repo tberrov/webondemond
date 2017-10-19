@@ -92,3 +92,38 @@ $media-expressions: (
     color: grey;
   }
 }
+#wrapper-hero{
+  background-image: url("../images/hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .logo{
+    text-align: right;
+    margin: 10px 0 15px;
+    img{
+      width: 100%;
+    }
+    span{
+      color: #0e0e16;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14px;
+      padding-right: 15px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #header {
+    .nav {
+      display: inline-block;
+    }
+  }
+}
+.reg-log{
+  display: inline-block;
+  float: right;
+  padding: 15px 10px 15px 0;
+}
+@media screen and (min-width: 1200px){
+
+}

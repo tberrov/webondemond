@@ -556,4 +556,29 @@ input[type='submit'] {
 
 #header a:hover {
   color: grey; }
+
+#wrapper-hero {
+  background-image: url("../images/hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #wrapper-hero .logo {
+    text-align: right;
+    margin: 10px 0 15px; }
+    #wrapper-hero .logo img {
+      width: 100%; }
+    #wrapper-hero .logo span {
+      color: #0e0e16;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14px;
+      padding-right: 15px; }
+
+@media screen and (min-width: 768px) {
+  #header .nav {
+    display: inline-block; } }
+
+.reg-log {
+  display: inline-block;
+  float: right;
+  padding: 15px 10px 15px 0; }
 /*# sourceMappingURL=main.css.map */
